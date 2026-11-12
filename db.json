@@ -1,0 +1,38 @@
+{
+  "pessoas": [
+    {
+      "nome": "Pedro",
+      "idade": "30",
+      "cpf": "111.222.333-44",
+      "id": 4
+    },
+    {
+      "nome": "Pablo",
+      "sobrenome": "Chagas",
+      "cpf": "3666666",
+      "email": "pabloaugustotei.chagas@gmail.com",
+      "senha": "meuchaves",
+      "rua": "acapulco",
+      "cep": "05550",
+      "cidade": "Mogi das Cruzes",
+      "estado": "São Paulo",
+      "telefone": "666-333",
+      "id": 6
+    },
+    {
+      "nome": "gabriel",
+      "idade": "67",
+      "cpf": "4544454",
+      "rg": "8989",
+      "email": "gabriealexandre@gmail.com",
+      "senha": "4545",
+      "telefone": "sssss",
+      "cep": "9898",
+      "cidade": "mogi das cruzes",
+      "estado": "são paulo",
+      "curso": "Ds",
+      "escola": "senai",
+      "id": 7
+    }
+  ]
+}

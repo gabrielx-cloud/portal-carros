@@ -1,0 +1,131 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título */
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    background-color: #151515;
+    border: 2px solid #a3263d;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+/* Cabeçalho */
+thead {
+    background-color: #a3263d;
+    color: white;
+}
+
+thead td {
+    font-weight: bold;
+    padding: 15px 12px;
+    text-align: center;
+}
+
+/* Células */
+td {
+    padding: 12px;
+    border: 1px solid #69202e;
+    text-align: center;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Linhas */
+tbody tr {
+    background-color: #151515;
+    transition: 0.3s;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #242424;
+}
+
+tbody tr:hover {
+    background-color: #49202a;
+}
+
+/* Navegação */
+.botoes-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.botoes-navegacao a {
+    color: white;
+    text-decoration: none;
+    background-color: #a3263d;
+    padding: 10px 18px;
+    border-radius: 7px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 100px;
+    transition: 0.3s;
+}
+
+.botoes-navegacao a:hover {
+    background-color: #d13b55;
+    transform: scale(1.05);
+}
+
+/* Rolagem horizontal da tabela */
+body {
+    overflow-x: hidden;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .botoes-navegacao {
+        gap: 8px;
+    }
+
+    .botoes-navegacao a {
+        min-width: 90px;
+        padding: 10px;
+    }
+}
